@@ -1,0 +1,29 @@
+.ourTeam__slideWrapper {
+	position: relative;
+	max-width: 1460px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 150px;
+	@media (max-width: 1024.98px) {
+		padding: 0 0;
+	}
+}
+
+.ourTeam__item {
+	.image {
+		text-align: center;
+		width: 100%;
+	}
+}
+.ourTeam__description {
+	text-align: center;
+	.name {
+		font-size: 2.4rem;
+		font-weight: 700;
+		color: map-get($color, text);
+	}
+	.regency {
+		font-size: 1.6rem;
+		color: #707070;
+	}
+}
